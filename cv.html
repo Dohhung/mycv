@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+    <title>Create the CV by HTML</title>
+</head>
+<style>
+    /* Write CSS Here */
+*{	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color:rgb(219, 192, 213);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 70%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color:rgb(52, 125, 128);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color:rgb(153, 235, 238);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(113, 230, 119);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 20px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+</style>
+<body>
+	<div class="full">
+		<div class="left">
+			<div class="image">
+				<img  src=
+"https://dongthap.gov.vn/documents/34223/0/logo-dong-thap.png/239a9dfa-8a7e-51cf-502c-84c62a2b047c?t=1604377471928"
+					alt="gfg-logo"
+					style="width:100px;height:100px;">
+			</div>
+			<div class="Contact">
+				<h2>Liên hệ</h2>
+				<p>Đỗ Hoàng Hưng</p>
+				<p><b>Email id:</b>hungdo.230518@gmail.com</p>
+				<p><b>Mobile Phone:</b>0816952719</p>
+			</div>
+			<table>
+			<div class="Skills">
+				<h2>Những kỹ năng có được</h2>
+				<ul>
+					<li><b>Các ngôn ngữ lập trình:
+					Python, Java, C++</b></li>
+					<li><b>Frontend : HTML5, CSS3,
+					JavaScript</b></li>
+				</ul>
+			</div>
+			<div class="Languages">
+				<h2>Thành thạo nhiều ngôn ngữ</h2>
+				<ul>
+					<li>English</li>
+					<li>Chinese</li>
+                    <li>Thailand</li>
+				</ul>
+			</div>
+			<div class="Hobbies">
+				<h2>Sở thích cá nhân</h2>
+				<ul>
+					<li>Chơi game cùng đồng đội</li>
+					<li>Bơi lội</li>
+                    <li>Bóng chuyền</li>
+				</ul>
+			</div>
+			</table>
+		</div>
+		<div class="right">
+			<div class="name">
+				<h1>Du lịch miệt vườn</h1>
+			</div>
+			<div class="title">
+            <p>Web Developer</p>
+			</div>
+			<div class="Summary">
+				<h2>Mục tiêu và định hướng bản thân</h2>
+				<p>Luôn sẵn sàng học hỏi, tiếp thu ý kiến và phát triển bản thân.<br/>
+    			Không ngại đặt bản thân vào thử thách và những khó khăn trong cuộc sống.</p>
+			</div>
+			<div class="Experience">
+				<h2>Kinh nghiệm làm việc</h2>
+				<h3>Tham gia phát triển web cho trường Đại học sư phạm TP.HCM</h3>
+				<p>Từ tháng 7 năm 2020 đến hiện tại</p>
+				<ul>
+					<li>Tích cực tham gia các phong trào thi đấu về lĩnh vực thiết kế web</li>
+					<li>Tạo ra chương trình tối ưu hóa dữ liệu trong xử lý phần miềm</li>
+				</ul>
+			</div>
+			<div class="Education">
+				<h2>Chứng chỉ và bằng cấp</h2>
+				<table>
+					<tr>
+						<th>Trường Đại Học</th>
+						<th>Năm tốt nghiệp </th>
+						<th>Điểm đánh giá</th>
+					</tr>
+					<tr>
+						<td>Đh Sư Phạm tp.HCM</td>
+						<td>2021</td>
+						<td>8.9</td>
+					</tr>
+					<tr>
+						<td>Đh Bách Khoa</td>
+						<td>2017</td>
+						<td>8.5</td>
+					</tr>
+				</table>
+			</div>
+			<div class="project">
+				<ul>
+					<li>
+						<h2>Dự án 1</h2>
+						<p>Tạo trang web phát triển ngành du lịch</p>
+                    </li>
+                    <li>
+                        <h2>Dự án 2</h2>
+                        <p>Tạo phần miềm cung cấp dữ liệu di động cho người dùng</p>
+                    </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
